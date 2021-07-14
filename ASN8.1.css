@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .header {
+    border: 1px solid red;
+    padding: 15px;
+  }
+  
+  .menu {
+    width: 25%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  
+  .main {
+    width: 75%;
+    float: left;
+    padding: 15px;
+    border: 1px solid red;
+  }
+  @media only screen and (max-width: 720px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  @media only screen and (min-width: 721px) {
+    body {
+        background-color:slateblue;
+    }
+  }
+  
